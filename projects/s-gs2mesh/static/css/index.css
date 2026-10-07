@@ -114,9 +114,14 @@ body {
 
 
 /* Publication Content Styling */
+/* Only the method name (<b>) is bold in the title */
+.publication-title b {
+    font-weight: 800;
+}
+
 .publication-title {
     font-family: 'Inter', sans-serif !important;
-    font-weight: 800 !important;
+    font-weight: 400 !important;
     color: var(--text-primary) !important;
     margin-bottom: 2rem !important;
     line-height: 1.1 !important;
